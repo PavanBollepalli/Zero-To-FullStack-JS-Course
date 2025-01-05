@@ -21,3 +21,34 @@ let seven = document.querySelector(".mousemove");
 let eight = document.querySelector(".mouseout");
 let nine = document.querySelector(".mouseover");
 let ten = document.querySelector(".mouseup");
+one.addEventListener("click", () => {
+    one.classList.toggle("red")
+})
+two.addEventListener("contextmenu", () => {
+    two.classList.toggle("blue")
+})
+three.addEventListener("dblclick", () => {
+    three.classList.toggle("teal")
+})
+four.addEventListener("mousedown", () => {
+    four.classList.toggle("steelblue")
+})
+five.addEventListener("mouseenter", () => {
+    five.classList.toggle("orange")
+})
+six.addEventListener("mouseleave", () => {
+    six.classList.toggle("purple")
+})
+seven.addEventListener("mouseover", () => {
+    seven.classList.add("pink")
+})
+
+eight.addEventListener("mousemove", () => {
+    eight.classList.add("crimson")
+})
+nine.addEventListener("mouseover", () => {
+    nine.classList.add("chocolate")
+})
+ten.addEventListener("mouseup", () => {
+    ten.classList.add("aqua")
+})

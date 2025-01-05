@@ -1,18 +1,19 @@
 body {
   height: 100vh;
+  background: linear-gradient(red 10%, 30%, blue 90%);
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #ccc;
+
 }
 
 #emoji {
   font-size: 10rem;
-  filter: grayscale(1);
-  cursor: pointer;
-  transition-property: transform, filter;
+  transition-property: ;
   transition-duration: 200ms;
+  filter: grayscale(1)
 }
 
 #emoji:hover {
